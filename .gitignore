@@ -1,13 +1,15 @@
-# Python cache & compiled files
+# Python cache & compiled files / Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environment
+# Virtual environments
 venv/
+ENV/
+env/
 .venv/
 
-# Logs and temp
+# Logs and temp files
 *.log
 *.tmp
 *.temp
@@ -16,19 +18,42 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Jupyter checkpoints
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
-# IDE config
+# IDE / editor settings
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Large datasets
+# Large datasets / Large raw datasets
 data/**
 dataraw/**
 dataTCGA_STAD/**
 dataSPATIAL/**
 dataSC/**
 dataTCIA/**
+dataprocessed/**
+datamini/**
+
+# M1: High-throughput antigen discovery
+M1_antigen_discovery/results/
+M1_antigen_discovery/resultstables/
+tank_out/
+
+# M2: Structural modeling
+M2_structural_modeling/*.pdb
+
+# M3: mRNA design & delivery
+M3_mRNA_design/out/
+
+# M4: Feedback simulation
+M4_feedback_simulation/out/
+
+# M5: Reinforcement learning (if future results generated)
+M5_reinforcement_learning/out/
+
+# Figures and result images
+resultfigures/
+resultsfigures/
