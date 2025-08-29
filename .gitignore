@@ -1,0 +1,34 @@
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints
+
+# IDE config
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large datasets
+data/**
+dataraw/**
+dataTCGA_STAD/**
+dataSPATIAL/**
+dataSC/**
+dataTCIA/**

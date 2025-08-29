@@ -1,0 +1,15 @@
+Found rows (with version): ['ENSG00000066405.13']
+Samples: 448
+Expression summary (log2(count+1)):
+count    448.000000
+mean      13.176433
+std        3.593342
+min        2.000000
+25%       11.200128
+50%       14.192174
+75%       15.889741
+max       19.399512
+dtype: float64
+Across-gene SD of CLDN18: 3.5933
+SD rank among all genes: 95 / 60660 (~0.16 percentile)
+Per-sample values saved to: M1_CLDN18_counts_per_sample.csv

@@ -1,0 +1,40 @@
+{
+  "lead_model": "C:\\Users\\surface\\Desktop\\AI-CAR-Loop-1.0\\M2_structural_modelling\\docking2_fullCAR_centroid.pdb",
+  "top5": [
+    {
+      "platform": "TMAB3",
+      "penetration": 0.863210149995377,
+      "selectivity": 1.15,
+      "stability": 0.88,
+      "score": 0.8735686717953215
+    },
+    {
+      "platform": "TMAB3",
+      "penetration": 0.8477945267491171,
+      "selectivity": 1.15,
+      "stability": 0.88,
+      "score": 0.8579680610701065
+    },
+    {
+      "platform": "TMAB3",
+      "penetration": 0.8314273375485987,
+      "selectivity": 1.15,
+      "stability": 0.88,
+      "score": 0.8414044655991818
+    },
+    {
+      "platform": "RNACap",
+      "penetration": 0.8696912043458305,
+      "selectivity": 1.05,
+      "stability": 0.92,
+      "score": 0.8401217033980722
+    },
+    {
+      "platform": "TMAB3",
+      "penetration": 0.8138075789592368,
+      "selectivity": 1.15,
+      "stability": 0.88,
+      "score": 0.8235732699067476
+    }
+  ]
+}

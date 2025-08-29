@@ -1,0 +1,3 @@
+Mean AUC (5-fold): nan
+STR (demo): 0.538
+Note: This is a tiny demo. Full replication uses TCGA/TCIA per README.

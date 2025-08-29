@@ -1,0 +1,3 @@
+gene=ENSG00000066405
+cutoff=median=2.72191
+N=441 p_logrank=0.881882

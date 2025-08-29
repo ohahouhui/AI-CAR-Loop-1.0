@@ -1,0 +1,7 @@
+sample_id,label,geneA,geneB,geneC,geneD,spatial_tumor,spatial_normal
+S1,tumor,10,5,2,9,0.80,0.20
+S2,tumor,9,4,3,8,0.78,0.22
+S3,tumor,11,6,2,10,0.82,0.18
+S4,normal,3,8,7,2,0.30,0.70
+S5,normal,2,7,8,3,0.25,0.75
+S6,normal,4,9,6,4,0.28,0.72
