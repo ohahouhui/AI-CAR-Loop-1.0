@@ -26,8 +26,6 @@ AI-CAR-Loop-1.0/
 └── README.md
 ```
 
----
-
 ## M1 — High-Throughput Antigen Discovery (TANK)
 
 **TANK** = *Target discovery by Analysis of geNe expression ranKing*
@@ -35,10 +33,12 @@ A variance-based high-throughput ranking method to identify candidate targets fr
 
 **Data**
 
-* Source: UCSC Xena (TCGA Hub)
-* Cohort: TCGA-STAD (Stomach Adenocarcinoma)
-* File: `TCGA-STAD.star_counts.tsv.gz` (RNA-Seq STAR-counts, rows = genes, columns = samples)
-* Filtered genes: 47,662 after min-detection filtering
+* **Source:** UCSC Xena (GDC Hub)
+* **Cohort:** TCGA-STAD (*Stomach Adenocarcinoma*)
+* **Raw file:** [`TCGA-STAD.star_counts.tsv.gz`](https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-STAD.star_counts.tsv.gz)
+  ([view dataset on UCSC Xena](https://xenabrowser.net/datapages/?dataset=TCGA-STAD.star_counts.tsv&host=https%3A%2F%2Fgdc.xenahubs.net&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443))
+* **Matrix size:** 60,660 genes × 448 samples (includes both tumor and normal tissues)
+* **Filtered genes:** 47,662 after minimum-detection filtering
 
 **Command**
 
@@ -63,13 +63,14 @@ Where:
 * `TANK_targets.tsv` — rankings for specified targets
 * `README_targets.txt` — run parameters + top-10 list
 
-Example run result:
+**Example run result:**
 
 * CLDN18: Rank = 95 / 47,662
 * ERBB2: Rank = 5,306
 * CD274: Rank = 10,372
 
 🔗 [M1 Scripts](https://github.com/ohahouhui/AI-CAR-Loop-1.0/tree/main/M1_antigen_discovery)
+
 
 ---
 
